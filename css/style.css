@@ -102,3 +102,40 @@ body {
 .header-btn:not(:last-child) {
 	margin-right: 20px;
 }
+
+/* Стили для секции Special */
+.special-list {
+	margin-right: 24px;
+}
+
+.special-item {
+	flex-direction: column;
+	padding: 40px 108px 40px 45px;
+	margin-bottom: 24px;
+	width: 573px;
+}
+
+.special-item:last-child {
+	margin-bottom: 0;
+}
+
+.special-item-title {
+	margin-bottom: 15px;
+}
+
+.special-item-price {
+	margin-bottom: 47px;
+}
+
+.special-main {
+	flex-direction: column;
+	padding: 212px 229px 40px 45px;
+}
+
+.special-main-title {
+	margin-bottom: 15px;
+}
+
+.special-main-link {
+	margin-top: auto;
+}
