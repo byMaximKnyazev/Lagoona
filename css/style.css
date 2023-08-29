@@ -50,8 +50,55 @@ body {
 }
 /* ------------------------------ */
 
-
-
 /* Общие стили */
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
+}
+
+.flex {
+	display: flex;
+}
+
+.top-offset {
+	padding-top: 70px;
+}
+
+.title {
+	margin-bottom: 20px;
+}
 
 /* Стили для Header */
+
+.header {
+	padding-top: 30px;
+}
+
+.header-top {
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.header-left {
+	align-items: center;
+}
+
+.header-logo {
+	margin-right: 40px;
+}
+
+.header-nav {
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px 45px;
+}
+
+.nav-list-item:not(:last-child) {
+	margin-right: 45px;
+}
+
+.header-btn:not(:last-child) {
+	margin-right: 20px;
+}
