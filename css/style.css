@@ -196,3 +196,42 @@ body {
 .advantages-img {
 	margin-bottom: 10px;
 }
+
+/* Стили для секции Placement */
+.placement-list {
+	flex-wrap: wrap;
+}
+
+.placement-item {
+	margin-right: 24px;
+	margin-bottom: 24px;
+	max-width: 374px;
+}
+
+.placement-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.placement-item:nth-child(7),
+.placement-item:last-child {
+	margin-bottom: 0;
+}
+
+.placement-item-card {
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.placement-item-content {
+	/* padding: 32px 45px 45px 45px; */
+}
+
+.placement-item-price {
+	display: block;
+	margin-bottom: 16px;
+}
+
+.placement-item-hotel {
+	display: block;
+	margin-bottom: 16px;
+}
