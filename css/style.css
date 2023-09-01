@@ -142,6 +142,7 @@ body {
 }
 
 .title {
+	padding-left: 40px;
 	color: #333;
 	font-size: 40px;
 }
@@ -275,6 +276,8 @@ body {
 /* Стили для секции For-us */
 .for-us-descr {
 	max-width: 888px;
+	color: #000;
+	line-height: 200%;
 }
 
 /* Стили для секции Services */
