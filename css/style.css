@@ -263,7 +263,7 @@ body {
 	font-weight: 700;
 }
 
-.special-main-price{
+.special-main-price {
 	color: #fff;
 	font-size: 30px;
 	opacity: .8;
@@ -335,6 +335,8 @@ body {
 	margin-bottom: 22px;
 	padding: 40px 42px 32px 45px;
 	max-width: 276px;
+	border-radius: 15px;
+	background: #FFF;
 }
 
 .advantages-item:nth-child(4n) {
@@ -350,6 +352,11 @@ body {
 
 .advantages-img {
 	margin-bottom: 10px;
+}
+
+.advantages-descr {
+	color: #000;
+	line-height: 200%;
 }
 
 /* Стили для секции Placement */
