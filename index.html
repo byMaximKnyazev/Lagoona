@@ -882,8 +882,55 @@
 				</div>
 			</section>
 			<!-- Tour -->
-			<section class="tour">
-
+			<section class="tour top-offset">
+				<div class="container tour-container">
+					<h2 class="title tour-title">
+						Хочу тур
+					</h2>
+					<form class="form flex" action="https://jsonplaceholder.typicode.com/posts">
+						<label class="form-label flex">
+							<span class="form-label-subtitle">
+								Город вылета
+							</span>
+							<select class="form-select" name="City">
+								<option value="Санкт-Петербург" selected="selected">Санкт-Петербург</option>
+								<option value="Москва">Москва</option>
+								<option value="Воронеж">Воронеж</option>
+							</select>
+						</label>
+						<label class="form-label flex">
+							<span class="form-label-subtitle">
+								Страна
+							</span>
+							<select class="form-select" name="Country">
+								<option value="Австралия" selected="selected">Австралия</option>
+								<option value="Албания">Албания</option>
+								<option value="Армения">Армения</option>
+							</select>
+						</label>
+						<label class="form-label flex">
+							<span class="form-label-subtitle">
+								Дата прибытия
+							</span>
+							<input class="form-input" name="date" type="date">
+						</label>
+						<label class="form-label flex">
+							<span class="form-label-subtitle">
+								Ночей
+							</span>
+							<input class="form-input form-input-night" name="nights" type="number" min="1" max="14" placeholder="6">
+						</label>
+						<label class="form-label flex">
+							<span class="form-label-subtitle">
+								Туристы
+							</span>
+							<input class="form-input form-input-tourist" name="tourists" type="number" min="1" max="6" placeholder="2" required>
+						</label>
+						<button class="btn form-btn" type="submit">
+							Найти
+						</button>
+					</form>
+				</div>
 			</section>
 			<!-- Contacts -->
 			<section id="contacts" class="contacts">
