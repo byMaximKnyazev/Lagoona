@@ -136,6 +136,7 @@ body {
 	padding: 13px 20px;
 	border-radius: 10px;
 	border: 1px solid #C93;
+	font-size: 16px;
 	color: #CC9933;
 	background-color: transparent;
 	cursor: pointer;
@@ -435,7 +436,7 @@ body {
 	padding-left: 0;
 }
 
-.tour-container {
+.tour-inner {
 	padding: 45px;
 	border-radius: 15px;
 	background: #E9E9E9;
@@ -480,6 +481,10 @@ body {
 }
 
 /* Стили для секции Contacts */
+.contacts {
+	margin-bottom: 40px;
+}
+
 .contacts-inner {
 	justify-content: space-between;
 	padding: 45px;
@@ -550,4 +555,94 @@ body {
 .contacts-bg {
 	overflow: hidden;
 	border-radius: 10px;
+}
+
+/* Стили для секции Footer */
+.footer-inner {
+	position: relative;
+	padding: 45px;
+	border-radius: 15px;
+	background: #333;
+}
+
+.footer-inner::after {
+	content: "";
+	position: absolute;
+	right: 177px;
+	bottom: 0;
+	width: 254px;
+	height: 228px;
+	background-image: url('../img/footer/sun-bg-icon.svg');
+	background-repeat: no-repeat;
+}
+
+.footer-left {
+	flex-direction: column;
+	margin-right: 125px;
+	max-width: 302px;
+}
+
+.footer-descr {
+	margin-bottom: 40px;
+	color: #FFF;
+	line-height: 190%;
+}
+
+.footer-link {
+	color: #C93;
+	line-height: 150%;
+}
+
+.footer-address {
+	flex-direction: column;
+	max-width: 360px;
+	font-style: normal;
+}
+
+.footer-address-location {
+	margin-bottom: 15px;
+	color: #FFF;
+	line-height: 187.5%;
+}
+
+.footer-address-phone {
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.footer-address-mail {
+	flex-direction: column;
+}
+
+.footer-social {
+	margin-left: auto;
+}
+
+.footer-social-list {
+	flex-direction: column;
+}
+
+.footer-social-item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.footer-social-link {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+}
+
+.footer-social-link-tripadvisor {
+	background-image: url('../img/footer/tripadvisor.svg');
+}
+
+.footer-social-link-ok {
+	background-image: url('../img/footer/ok.svg');
+}
+
+.footer-social-link-vk {
+	background-image: url('../img/footer/vk.svg');
 }
