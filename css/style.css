@@ -478,3 +478,76 @@ body {
 	padding-bottom: 3px;
 	border-bottom: 1px solid #E9E9E9;
 }
+
+/* Стили для секции Contacts */
+.contacts-inner {
+	justify-content: space-between;
+	padding: 45px;
+	border-radius: 15px;
+	background: #FFF;
+}
+
+.address {
+	max-width: 375px;
+	font-style: normal;
+}
+
+.address-list {
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+
+.address-list-item {
+	justify-content: space-between;
+	padding-bottom: 23px;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+.address-list-item:not(:first-child) {
+	padding-top: 25px;
+}
+
+.address-list-left {
+	margin-right: 47px;
+	width: 98px;
+}
+
+.address-list-title {
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.address-list-right {
+	width: 229px;
+}
+
+.address-list-location {
+	color: #000;
+	line-height: 150%;
+}
+
+.address-list-link {
+	color: #C93;
+	line-height: 150%;
+}
+
+.addres-list-text {
+	display: block;
+	color: #999;
+	line-height: 150%;
+}
+
+.address-list-shedule {
+	color: #000;
+	line-height: 150%;
+}
+
+.contacts-btn {
+	padding: 30px;
+}
+
+.contacts-bg {
+	overflow: hidden;
+	border-radius: 10px;
+}
