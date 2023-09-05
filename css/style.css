@@ -140,6 +140,7 @@ body {
 	color: #CC9933;
 	background-color: transparent;
 	cursor: pointer;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn:focus {
@@ -185,6 +186,7 @@ body {
 
 .header-contacts {
 	color: #666666;
+	transition: color 0.3s ease-in-out;
 }
 
 .header-contacts:focus {
@@ -210,12 +212,14 @@ body {
 	top: -2px;
 	right: 5px;
 	fill: #CC9933;
+	transition: fill 0.3s ease-in-out;
 }
 
 .header-account {
 	align-items: center;
 	padding-left: 3px;
 	color: #CC9933;
+	transition: color 0.3s ease-in-out;
 }
 
 .header-account:focus {
@@ -254,6 +258,7 @@ body {
 
 .nav-list-link {
 	color: #666666;
+	transition: color 0.3s ease-in-out;
 }
 
 .nav-list-link:focus {
@@ -316,6 +321,7 @@ body {
 .special-main-link {
 	max-width: 100px;
 	color: #F0BF5F;
+	transition: color 0.3s ease-in-out;
 }
 
 .special-item-icon {
@@ -323,6 +329,7 @@ body {
 	top: -1px;
 	margin-left: 6px;
 	stroke: #F0BF5F;
+	transition: stroke 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .special-item-link:hover .special-item-icon,
@@ -333,6 +340,7 @@ body {
 .special-item-link:active,
 .special-main-link:active {
 	color: #fff;
+	transition: color 0.3s ease-in-out;
 }
 
 .special-item-link:active .special-item-icon,
@@ -400,6 +408,7 @@ body {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 200%;
+	transition: color 0.3 ease-in-out;
 }
 
 .services-item-link:hover {
@@ -423,6 +432,7 @@ body {
 .services-item-icon {
 	margin-left: 6px;
 	stroke: #CC9933;
+	transition: stroke 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .services-item-content {
@@ -535,11 +545,13 @@ body {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 200%;
+	transition: color 0.3s ease-in-out;
 }
 
 .placement-item-icon {
 	margin-left: 6px;
 	stroke: #fff;
+	transition: stroke 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .placement-item-link:hover .placement-item-icon{
@@ -659,6 +671,7 @@ body {
 .address-list-link {
 	color: #C93;
 	line-height: 150%;
+	transition: color 0.3s ease-in-out;
 }
 
 .address-list-link:focus {
@@ -729,6 +742,7 @@ body {
 .footer-link {
 	color: #C93;
 	line-height: 150%;
+	transition: color 0.3s ease-in-out;
 }
 
 .footer-link:focus {
@@ -786,6 +800,7 @@ body {
 
 .footer-social-icon {
 	fill: #999;
+	transition: fill 0.3s ease-in-out;
 }
 
 .footer-social-link:focus .footer-social-icon {
